@@ -16,8 +16,8 @@ def get_japanese_emoticon(file, emoticon)
   p hash[hash.key(emoticon)]
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(file, emoticon)
+  load_library(file)
 end
 
 get_japanese_emoticon('lib/emoticons.yml', "ヽ(ｏ`皿′ｏ)ﾉ")
