@@ -30,5 +30,3 @@ def get_english_meaning(file, emoticon)
   end
   return "Sorry, that emoticon was not found"
 end
-
-get_japanese_emoticon('lib/emoticons.yml', "ヽ(ｏ`皿′ｏ)ﾉ")
